@@ -3,6 +3,7 @@
 body,ul {
 	margin: 0;
 	padding: 0;
+	
 }
 
 .ju_wrapper {
@@ -11,7 +12,7 @@ body,ul {
 }
 
 .ju_wrapper .ju_container {
-	width: 960px;
+	width: 100%;
 	height: 415px;
 	background: url("../img/bg.png") repeat;
 	margin: 0 auto;
@@ -31,7 +32,6 @@ body,ul {
 
 .ju_wrapper .ju_container .ju_ul_class li {
 	float: left;
-	width: 960px;
 	height: 415px;
 }
 
@@ -64,7 +64,7 @@ body,ul {
 
 .button_area {
 	position: absolute;
-	width: 960px;
+	
 }
 
 .next {

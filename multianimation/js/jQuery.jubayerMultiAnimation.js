@@ -10,14 +10,18 @@
 		};
 
 		var o = jQuery.extend(opt, options);
+		var windowWidth = jQuery('body').width();
 		return this
 				.each(function() {
 
 					var e = $(this);
 
 					var Slider = function() {
-
+                        
 						this.liNo = e.find('.ju_ul_class li');
+						this.buttonArea = e.find('.button_area');
+						this.liNo.width(windowWidth);
+						this.buttonArea.width(windowWidth);
 						this.liLength = this.liNo.length;
 						this.singleLiWidth = e.find('.ju_ul_class >li')
 								.outerWidth(true);
@@ -42,7 +46,8 @@
 										{
 
 											'margin-left' : "-="
-													+ this.singleLiWidth + "px"
+													+ this.singleLiWidth + "px",
+											'opacity' : 1		
 										}, {
 											easing : o.easing,
 											step : function() {
@@ -52,7 +57,8 @@
 							} else if (currentLeftPositionNumber == -(this.lastPosition)) {
 								$('.ju_ul_class').animate({
 
-									'margin-left' : "0px"
+									'margin-left' : "0px",
+									'opacity' : 1
 								}, {
 									easing : o.easing,
 									step : function() {
@@ -76,7 +82,8 @@
 
 													'margin-left' : "-="
 															+ (this.totalWidth - this.singleLiWidth)
-															+ "px"
+															+ "px",
+															'opacity' : 1
 												}, {
 													easing : o.easing,
 													step : function() {
@@ -89,7 +96,8 @@
 
 								$('.ju_ul_class').animate({
 
-									'margin-left' : slidePrevPosition + "px"
+									'margin-left' : slidePrevPosition + "px",
+									'opacity' : 1
 								}, {
 									easing : o.easing,
 									step : function() {
@@ -122,13 +130,15 @@
 							}else if(index<0){
 								index = (index--)*(-1);
 							}
+							
+							
 							slider.addCSS3Animation(index);
 							slider.changePaginationPrev(index);
 						};
 
 						this.addCSS3Animation = function(index) {
 							
-							
+						    
 							this.r = this.liNo.eq(index);
 							this.childrenSpanLength = this.r.children('span').length;
 							this.childrenImgLength = this.r.children('img').length;
