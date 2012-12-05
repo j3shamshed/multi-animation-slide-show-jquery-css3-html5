@@ -9,6 +9,7 @@ body,ul {
 .ju_wrapper {
 	width: 100%;
 	background-color: green;
+	margin:0 auto;
 }
 
 .ju_wrapper .ju_container {
@@ -120,11 +121,11 @@ body,ul {
 }
 
 .ju_wrapper .ju_container .ju_ul_class img#img_2 {
-	margin: 9.5% 0 0 -4%;
+	margin: 9.5% 0 0 1%;
 }
 
 .ju_wrapper .ju_container .ju_ul_class img#img_3 {
-	margin: 9.9% 0 0 0;
+	margin: 9.9% 0 0 2%;
 }
 
 /********************** custom ***********/

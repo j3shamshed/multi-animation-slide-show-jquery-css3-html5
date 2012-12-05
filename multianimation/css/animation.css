@@ -11,6 +11,10 @@ Copyright (c) 2012 Jubayer
 	-webkit-animation-delay: 0s;
 	-webkit-animation-timing-function: ease;
 	-webkit-animation-fill-mode: both;
+	-o-animation-duration: .6s;
+	-o-animation-delay: 0s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: 0s;
 	-moz-animation-timing-function: ease;
@@ -30,6 +34,10 @@ Copyright (c) 2012 Jubayer
 	-webkit-animation-delay: .2s;
 	-webkit-animation-timing-function: ease;
 	-webkit-animation-fill-mode: both;
+	-o-animation-duration: .6s;
+	-o-animation-delay: .2s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: .2s;
 	-moz-animation-timing-function: ease;
@@ -49,6 +57,10 @@ Copyright (c) 2012 Jubayer
 	-webkit-animation-delay: .4s;
 	-webkit-animation-timing-function: ease;
 	-webkit-animation-fill-mode: both;
+	-o-animation-duration: .6s;
+	-o-animation-delay: .4s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: .4s;
 	-moz-animation-timing-function: ease;
@@ -68,6 +80,10 @@ Copyright (c) 2012 Jubayer
 	-webkit-animation-delay: .6s;
 	-webkit-animation-timing-function: ease;
 	-webkit-animation-fill-mode: both;
+	-o-animation-duration: .6s;
+	-o-animation-delay: .6s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: .6s;
 	-moz-animation-timing-function: ease;
@@ -87,6 +103,10 @@ Copyright (c) 2012 Jubayer
 	-webkit-animation-delay: .8s;
 	-webkit-animation-timing-function: ease;
 	-webkit-animation-fill-mode: both;
+	-o-animation-duration: .6s;
+	-o-animation-delay: .8s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: .8s;
 	-moz-animation-timing-function: ease;
@@ -106,6 +126,10 @@ Copyright (c) 2012 Jubayer
 	-webkit-animation-delay: 1s;
 	-webkit-animation-timing-function: ease;
 	-webkit-animation-fill-mode: both;
+	-o-animation-duration: .6s;
+	-o-animation-delay: 1s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: 1s;
 	-moz-animation-timing-function: ease;
@@ -124,6 +148,10 @@ Copyright (c) 2012 Jubayer
 	-webkit-animation-delay: 1.2s;
 	-webkit-animation-timing-function: ease;
 	-webkit-animation-fill-mode: both;
+	-o-animation-duration: .6s;
+	-o-animation-delay: 1.2s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: 1.2s;
 	-moz-animation-timing-function: ease;
@@ -142,6 +170,10 @@ Copyright (c) 2012 Jubayer
 	-webkit-animation-delay: 1.4s;
 	-webkit-animation-timing-function: ease;
 	-webkit-animation-fill-mode: both;
+	-o-animation-duration: .6s;
+	-o-animation-delay: 1.4s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: 1.4s;
 	-moz-animation-timing-function: ease;

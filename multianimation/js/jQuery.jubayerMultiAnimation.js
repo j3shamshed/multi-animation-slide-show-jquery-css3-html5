@@ -10,7 +10,7 @@
 		};
 
 		var o = jQuery.extend(opt, options);
-		var windowWidth = jQuery('body').width();
+		var windowWidth = jQuery('.ju_container').width();
 		return this
 				.each(function() {
 
