@@ -3,7 +3,7 @@
 body,ul {
 	margin: 0;
 	padding: 0;
-	
+	overflow:hidden;
 }
 
 .ju_wrapper {
@@ -38,13 +38,14 @@ body,ul {
 
 .pagination_area {
 	position: absolute;
+	margin-top: -63px;
+	margin-left: 47px;
 }
 
 .ju_pagination {
 	list-style: none;
 	position: relative;
 	z-index: 200;
-	margin-top: -21px;
 }
 
 .ju_active,.ju_passive {
@@ -115,7 +116,9 @@ body,ul {
 	font-size: 14px;
 	background-color: lime;
 }
-
+.ju_wrapper .ju_container .ju_ul_class img{
+	max-width: 100%;
+}
 .ju_wrapper .ju_container .ju_ul_class img#img_1 {
 	margin: 9% 0 0 10%;
 }

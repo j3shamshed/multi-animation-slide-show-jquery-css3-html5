@@ -5,6 +5,7 @@
 		var opt = {
 
 			speed : 5000,
+			duration:600,
 			auto : true,
 			easing : 'easeInOutExpo'
 		};
@@ -47,8 +48,9 @@
 
 											'margin-left' : "-="
 													+ this.singleLiWidth + "px",
-											'opacity' : 1		
-										}, {
+											'opacity' : 1
+										},{
+											duration: o.duration,
 											easing : o.easing,
 											step : function() {
 												slider.addCSS3AnimationNext(currentLeftPositionNumber);
@@ -60,6 +62,7 @@
 									'margin-left' : "0px",
 									'opacity' : 1
 								}, {
+									duration: o.duration,
 									easing : o.easing,
 									step : function() {
 										slider.addCSS3AnimationNext(currentLeftPositionNumber);
@@ -84,7 +87,8 @@
 															+ (this.totalWidth - this.singleLiWidth)
 															+ "px",
 															'opacity' : 1
-												}, {
+												},{
+													duration: o.duration,
 													easing : o.easing,
 													step : function() {
 														slider.addCSS3AnimationPrev(currentLeftPositionNumber);
@@ -98,7 +102,8 @@
 
 									'margin-left' : slidePrevPosition + "px",
 									'opacity' : 1
-								}, {
+								},{
+									duration: o.duration,
 									easing : o.easing,
 									step : function() {
 										slider.addCSS3AnimationPrev(currentLeftPositionNumber);
